@@ -8,7 +8,7 @@ Usage
 
 While booting for the first on a boot CD/USB key, just launch the script as usual: 
 
-> ./<scriptname>.sh
+> sh scriptname.sh
 
 
 License

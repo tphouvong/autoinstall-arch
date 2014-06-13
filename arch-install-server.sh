@@ -131,7 +131,7 @@ cat <<-EOF > "${TARGET_ROOT_DIR}${CONFIG_SCRIPT}"
 
 
 	# tien-specific configuration
-	/usr/bin/useradd --password ${PASSWORD_USER} --comment 'omv-server' --create-home --gid users -G wheel omv
+	/usr/bin/useradd --password ${PASSWORD_USER} --comment '${FQDN}-server' --create-home --gid users -G wheel ${FQDN}
 
 
 	# Install yaourt
